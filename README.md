@@ -159,7 +159,7 @@ The theme used to style this starter provides the following files:
    |    |
    |    |-- pages/       
    |         |-- index.html           # INDEX page
-   |         |-- landingpage.html     # Sample LP
+   |         |-- landing_page.html     # Sample LP
    |         |-- *.html               # All other pages
    |    
    |-- ************************************************************************
