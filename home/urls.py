@@ -6,8 +6,8 @@ urlpatterns = [
     # Redirect the root URL
     path('', RedirectView.as_view(url='/landing-page/', permanent=False)),
 
-    # Existing index view (if still needed elsewhere)
-    path('index/', views.index, name='index'),
+    # Existing mainpage view (if still needed elsewhere)
+    path('mainpage/', views.mainpage, name='mainpage'),
 
     # New landing page URL
     path('landing-page/', views.landing_page, name='landing-page'),

@@ -158,7 +158,7 @@ The theme used to style this starter provides the following files:
    |    |    |-- base-auth.html       # Masterpage for Auth Pages
    |    |
    |    |-- pages/       
-   |         |-- index.html           # INDEX page
+   |         |-- mainpage.html           # INDEX page
    |         |-- landing_page.html     # Sample LP
    |         |-- *.html               # All other pages
    |    

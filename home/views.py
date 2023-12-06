@@ -1,8 +1,8 @@
 from django.shortcuts import render
 
 # Existing index view
-def index(request):
-    return render(request, 'pages/index.html')
+def mainpage(request):
+    return render(request, 'pages/mainpage.html')
 
 # New landing page view
 def landing_page(request):
