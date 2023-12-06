@@ -68,7 +68,8 @@ UI_TEMPLATES = os.path.join(BASE_DIR, 'templates')
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [UI_TEMPLATES],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        # "DIRS": [UI_TEMPLATES],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
