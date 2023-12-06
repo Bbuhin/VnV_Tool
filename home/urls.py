@@ -1,5 +1,5 @@
 from django.urls import path
-from django.views.generic.base import RedirectView
+from django.views.generic.base import RedirectViewn
 from . import views
 
 urlpatterns = [
