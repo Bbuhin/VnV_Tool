@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 # Existing index view
-def mainpage(request):
+def index(request):
     return render(request, 'pages/mainpage.html')
 
 # New landing page view

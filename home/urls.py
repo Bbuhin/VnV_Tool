@@ -4,7 +4,7 @@ from . import views
 
 urlpatterns = [
     # Redirect the root URL
-    path('', RedirectView.as_view(url='/landing-page/', permanent=False)),
+    # path('', RedirectView.as_view(url='/landing-page/', permanent=False)),
 
     # Existing mainpage view (if still needed elsewhere)
     path('mainpage/', views.mainpage, name='mainpage'),
